@@ -1,0 +1,95 @@
+:root {
+  --background: #E7ECF1;
+  --primary: #07A956;
+}
+​
+/* Replace argocd logo with custom logo */
+.nav-bar__logo img,
+.sidebar__logo img {
+  content: url(https://backstage.stone.tech/static/logo.bdf7fafd..png);
+}
+.sidebar__logo-container {
+  display: none;
+}
+​
+.sidebar__logo__character {
+  width: inherit;
+}
+​
+.sidebar:not(.theme-dark *) {
+  background: rgb(21,31,40) !important;
+  background: linear-gradient(288deg, rgba(21,31,40,1) 0%, rgba(22,32,41,1) 97%) !important;
+}
+​
+.sidebar__nav-item--active i {
+  color: var(--primary);
+}
+​
+.nav-bar {
+  background: #05203c !important
+}
+​
+.page__content-wrapper:not(.theme-dark *) {
+  background: var(--background) !important
+}
+​
+.sliding-panel__header:not(.theme-dark *) {
+  background: var(--background) !important
+}
+​
+.sliding-panel__body:not(.theme-dark *) {
+  background: var(--background) !important
+}
+​
+.argo-button--base:not(.theme-dark *) {
+  color: #FFFFFF !important;
+  background: var(--primary) !important
+}
+​
+.argo-button--base:not(.theme-dark *):hover {
+  opacity: 0.8 !important
+}
+​
+.argo-button--base:not(.theme-dark *):focus {
+  border-color: #FFFFFF !important
+}
+​
+.argo-button--base-o:not(.theme-dark *) {
+  color: var(--primary) !important;
+  box-shadow: inset 0 0 0 1px var(--primary) !important
+}
+​
+.argo-button--base-o:not(.theme-dark *):hover {
+  color: #fff !important;
+  background-color: var(--primary) !important
+}
+​
+.argo-button--base-o:not(.theme-dark *):focus {
+  color: #fff !important;
+  background-color: var(--primary) !important
+}
+​
+.top-bar__title:not(.theme-dark *) {
+  color: var(--primary) !important
+}
+​
+a:not(.theme-dark *) {
+  color: var(--primary) !important
+}
+​
+.settings-overview__redirect-panel__title:not(.theme-dark *) {
+  color: var(--primary) !important
+}
+​
+.selected:not(.theme-dark *) {
+  color: var(--primary) !important
+}
+​
+.tabs__indicator:not(.theme-dark *) {
+  background: var(--primary) !important
+}
+​
+.login-logout-button {
+  color: var(--primary) !important;
+}
+
